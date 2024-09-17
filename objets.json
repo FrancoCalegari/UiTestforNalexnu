@@ -94,7 +94,7 @@
         {
             "id": 15,
             "quantity": 1,
-            "image": "./objets/",
+            "image": "./objets/carrot.png",
             "name": "Carrot",
             "price": 3
         },
