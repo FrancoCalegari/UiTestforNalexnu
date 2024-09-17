@@ -70,12 +70,12 @@ body {
         
     z-index: 1;
     bottom: 15px;
-    right: 1.5px;
+    right: 1.1px;
     position: relative;
 }
 
 .footer img{
-    width: 351px;
+    width: 353px;
     object-fit: fill;
 }
 

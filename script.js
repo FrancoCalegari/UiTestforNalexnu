@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 availableItemsContainer.appendChild(availableItemElement);
             });
 
-            // Check if there are 4 or more items to activate the scrollbar
             if (data.items.length >= 4) {
                 availableItemsContainer.style.overflowY = 'auto';
             }
@@ -107,13 +106,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const inventoryContainer = document.querySelector('.container');
+    const originalBodyStyle = document.body.style.cssText;
 
     downloadPngButton.addEventListener('click', () => {
-        html2canvas(inventoryContainer).then(canvas => {
+        // Hide everything else
+        document.body.style.visibility = 'hidden';
+        inventoryContainer.style.visibility = 'visible';
+
+        html2canvas(inventoryContainer, { backgroundColor: null }).then(canvas => {
             const link = document.createElement('a');
             link.href = canvas.toDataURL('image/png');
             link.download = 'inventory.png';
             link.click();
+
+            // Restore original visibility
+            document.body.style.cssText = originalBodyStyle;
         });
     });
 
