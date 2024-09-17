@@ -1,0 +1,74 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "quantity": 1,
+            "image": "./objets/Strangecarrot.webp",
+            "name": "Strange Carrot",
+            "price": 5
+        },
+        {
+            "id": 2,
+            "quantity": 1,
+            "image": "./objets/Rottenpumpkin.webp",
+            "name": "Rotten Pumpkin",
+            "price": 500
+        },
+        {
+            "id": 3,
+            "quantity": 1,
+            "image": "./objets/Potato.webp",
+            "name": "Potato",
+            "price": 5
+        },
+        {
+            "id": 4,
+            "quantity": 1,
+            "image": "./objets/Pumpkin.webp",
+            "name": "Pumpkin",
+            "price": 100
+        },
+        {
+            "id": 5,
+            "quantity": 1,
+            "image": "./objets/Turnip.webp",
+            "name": "Turnip",
+            "price": 1
+        },
+        {
+            "id": 6,
+            "quantity": 1,
+            "image": "./objets/Strawberry.webp",
+            "name": "Strawberry",
+            "price": 2
+        },
+        {
+            "id": 7,
+            "quantity": 1,
+            "image": "./objets/Watermelon.webp",
+            "name": "Sandía",
+            "price": 200
+        },
+        {
+            "id": 8,
+            "quantity": 1,
+            "image": "./objets/Grapes.webp",
+            "name": "Grapes",
+            "price": 4
+        },
+        {
+            "id": 9,
+            "quantity": 1,
+            "image": "./objets/Strangegloamroot.webp",
+            "name": "Strange Gloamroot",
+            "price": 25
+        },
+        {
+            "id": 10,
+            "quantity": 1,
+            "image": "./objets/Strangepumpkin.webp",
+            "name": "Strange Pumpkin",
+            "price": 500
+        }
+    ]
+}

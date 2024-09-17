@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <button id="toggle-sidebar">☰</button>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="/bordetest1523.PNG" alt="Logo">
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <div class="inventory" id="inventory">
+                <div id="items"></div>
+                <div class="total-section">
+                    <button id="sell-all">Sell All</button>
+                    <span id="total">0 <img src="/zhanahoriapreciobyNalexnu.png" alt="carrot x16" class="carrot"></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="" alt="Arrow Down">
+        </div>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <h2>Available Items</h2>
+        <div id="available-items"></div>
+        <button id="download-png">Download Inventory as PNG</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="item-name"></h2>
+            <p>Cantidad:</p>
+            <input type="number" id="quantity" min="1" placeholder="Enter quantity">
+            <button id="add-to-inventory">Add to Inventory</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
