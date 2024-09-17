@@ -90,17 +90,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${item.image}" alt="${item.name}">
                 <span>${item.name}</span>
                 <span>x${item.quantity}</span>
-                <span id="total">${item.price * item.quantity} <img class="carrot" src="/zhanahoriapreciobyNalexnu.png" alt="carrot x16"></span>
+                <span id="total">${item.price * item.quantity} <img class="carrot" src="./zhanahoriapreciobyNalexnu.png" alt="carrot x16"></span>
             `;
             itemsContainer.appendChild(itemElement);
             total += item.quantity * item.price;
         });
 
-        totalElement.innerHTML = `${total} <img class="carrot" src="/zhanahoriapreciobyNalexnu.png">`;
+        totalElement.innerHTML = `${total} <img class="carrot" src="./zhanahoriapreciobyNalexnu.png">`;
     }
 
     sellAllButton.addEventListener('click', () => {
-        totalElement.innerHTML = '0 <img class="carrot" src="/zhanahoriapreciobyNalexnu.png" alt="carrot x16">';
+        totalElement.innerHTML = '0 <img class="carrot" src="./zhanahoriapreciobyNalexnu.png" alt="carrot x16">';
         itemsContainer.innerHTML = '';
         inventory = [];
     });
