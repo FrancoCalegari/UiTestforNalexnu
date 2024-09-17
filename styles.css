@@ -65,6 +65,19 @@ body {
     width: 300px;
 }
 
+.footer {
+        
+    z-index: 1;
+    bottom: 15px;
+    right: 1.5px;
+    position: relative;
+}
+
+.footer img{
+    width: 351px;
+    object-fit: fill;
+}
+
 .logo {
     
     z-index: 1;

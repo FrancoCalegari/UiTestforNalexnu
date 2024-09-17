@@ -106,8 +106,10 @@ document.addEventListener('DOMContentLoaded', () => {
         inventory = [];
     });
 
+    const inventoryContainer = document.querySelector('.container');
+
     downloadPngButton.addEventListener('click', () => {
-        html2canvas(inventoryElement, { backgroundColor: null }).then(canvas => {
+        html2canvas(inventoryContainer).then(canvas => {
             const link = document.createElement('a');
             link.href = canvas.toDataURL('image/png');
             link.download = 'inventory.png';
