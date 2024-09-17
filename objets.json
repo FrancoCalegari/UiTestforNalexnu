@@ -12,7 +12,7 @@
             "quantity": 1,
             "image": "./objets/Rottenpumpkin.webp",
             "name": "Rotten Pumpkin",
-            "price": 500
+            "price": 1
         },
         {
             "id": 3,
@@ -46,7 +46,7 @@
             "id": 7,
             "quantity": 1,
             "image": "./objets/Watermelon.webp",
-            "name": "Sandía",
+            "name": "Sandia",
             "price": 200
         },
         {
@@ -69,6 +69,76 @@
             "image": "./objets/Strangepumpkin.webp",
             "name": "Strange Pumpkin",
             "price": 500
+        },
+        {
+            "id": 11,
+            "quantity": 1,
+            "image": "./objets/Gloamroot.webp",
+            "name": "Gloamroot",
+            "price": 5
+        },
+        {
+            "id": 13,
+            "quantity": 1,
+            "image": "./objets/Strawberry.webp",
+            "name": "Strawberry",
+            "price": 2
+        },
+        {
+            "id": 14,
+            "quantity": 1,
+            "image": "./objets/Strawberry.webp",
+            "name": "Onion",
+            "price": 3
+        },
+        {
+            "id": 15,
+            "quantity": 1,
+            "image": "./objets/",
+            "name": "Carrot",
+            "price": 3
+        },
+        {
+            "id": 16,
+            "quantity": 1,
+            "image": "./objets/Strangestrawberry.webp",
+            "name": "Strange Grapes",
+            "price": 20
+        },
+        {
+            "id": 17,
+            "quantity": 1,
+            "image": "./objets/Strangestrawberry.webp",
+            "name": "Strange Strawberry",
+            "price": 10
+        },
+        {
+            "id": 18,
+            "quantity": 1,
+            "image": "./objets/Strangeturnip.webp",
+            "name": "Strange Turip",
+            "price": 5
+        },
+        {
+            "id": 19,
+            "quantity": 1,
+            "image": "./objets/Strangewatermelon.webp",
+            "name": "Strange Watermelon",
+            "price": 5
+        },
+        {
+            "id": 20,
+            "quantity": 1,
+            "image": "./objets/Strangepotato.webp",
+            "name": "Strange Potato",
+            "price": 5
+        },
+        {
+            "id": 21,
+            "quantity": 1,
+            "image": "./objets/Strangeonion.webp",
+            "name": "Strange Onion",
+            "price": 15
         }
     ]
 }
