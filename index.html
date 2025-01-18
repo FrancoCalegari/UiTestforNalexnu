@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="google-adsense-account" content="ca-pub-2843631821567070">
+</head>
+<body>
+    <button id="toggle-sidebar">☰</button>
+    <div class="container">
+        <div class="inventory">
+            <div class="inventory__container">
+              <div class="inventory__header">
+                <div class="inventory__icon"><img src="https://tsukisodyssey.wiki.gg/es/images/2/2b/FurnitureIcons_10.png" /></div>
+              </div>
+              <div class="item__container">
+                
+                <div class="item">
+                  <div class="item__image__container">
+                    <div class="item__image"><img src="https://tsukisodyssey.wiki.gg/es/images/6/6d/Strawberry.png" /></div>
+                    <div class="item__amount">99999</div>
+                  </div>
+                  <div class="item__name">Strawberry</div>
+                  <div class="item__price">99999999 <img src="https://tsukisodyssey.wiki.gg/es/images/c/c3/Carrot.png" /></div>
+                </div>
+              </div>
+              <div class="total__header"></div>
+              <div class="total__box">
+                <div class="total__text">Total</div>
+                <div class="total__amount">99999999999 <img src="https://tsukisodyssey.wiki.gg/es/images/c/c3/Carrot.png" /></div>
+              </div>
+              <div class="inventory__footer"></div>
+            </div>
+          </div>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <h2>Available Items</h2>
+        <div id="available-items"></div>
+        <button id="download-png">Download Inventory as PNG</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="item-name"></h2>
+            <input type="number" id="quantity" min="1" placeholder="Enter quantity">
+            <button id="add-to-inventory">Add to Inventory</button>
+        </div>
+    </div>
+
+    <footer></footer>
+        <p>Code by Franco Calegari, img by Nalexnu and KeiCo</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MCJ2HD3EYT"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MCJ2HD3EYT');
+</script>
+</body>
+</html>
